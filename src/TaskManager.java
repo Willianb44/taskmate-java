@@ -58,7 +58,7 @@ public class TaskManager {
 
     private void completeTask() {
         showTasks();
-        System.out.println("=== LISTADO DE TAREAS ==");
+        System.out.println("== LISTADO DE TAREAS ==");
         int num = scanner.nextInt();
         if (num > 0 && num <= tasks.size()) {
             tasks.get(num - 1).markCompleted();
